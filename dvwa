@@ -1,0 +1,4 @@
+echo -e "\e[1;35m Starting Local Web Server\e[0m"
+sleep 3
+cd $HOME/DVWA
+php -S localhost:8000
