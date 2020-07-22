@@ -1,0 +1,4 @@
+echo -e "\e[1;35m Starting Database Server\e[0m"
+sleep 3
+#Database Setup
+cd '/data/data/com.termux/files/usr' ; /data/data/com.termux/files/usr/bin/mysqld_safe --datadir='/data/data/com.termux/files/usr/var/lib/mysql'
