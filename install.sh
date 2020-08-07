@@ -35,8 +35,6 @@ banner;;
 esac
 }
 install () {
-pkg install php
-pkg install mariadb
 cp dvwa /data/data/com.termux/files/usr/bin
 cp database /data/data/com.termux/files/usr/bin
 cd /data/data/com.termux/files/usr/bin
